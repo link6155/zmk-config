@@ -29,11 +29,6 @@
 		};
 
 		lower {
-				// -----------------------------------------------------------------------------------------
-				// |  ~    |  !   |  @   |  #   |  $   |  %   |   ^   |  &    |  *   |  (   |   )   |   _   |
-				// |  /    |  N7  |  N8  |  N9  |  -   |  NLCK|   F1  |  F2   |  F3  |  F4  |  F5   |   =   |
-				// |  *    |  N4  |  N5  |  N6  |  +   |  =   |   F6  |  F7   |  F8  |  F9  |  F10  | TRANS |
-				// |  N0   |  N1  |  N2  |  N3  | TRANS|      DOT     |  MO3  |  F11 |  F12 |  TRANS| TRANS |
 			bindings = <
 				&kp LS(GRAVE)   &kp LS(N1)   &kp LS(N2)  &kp LS(N3)  &kp LS(N4)    &kp LS(N5)    &kp LS(N6)    &kp LS(N7)    &kp LS(N8)    &kp LS(N9)    &kp LS(N0)    &kp LS(MINUS)
 				&kp KP_DIVIDE   &kp KP_N7    &kp KP_N8   &kp KP_N9   &kp KP_MINUS  &kp LNLCK     &kp F1        &kp F2        &kp F3        &kp F4        &kp F5        &kp EQUAL
